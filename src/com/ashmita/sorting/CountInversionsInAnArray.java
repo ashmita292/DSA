@@ -2,7 +2,7 @@ package com.ashmita.sorting;
 /**
  * 
  * @author User
- * a pair (a[i], a[j]) forms an inversion when i<j and a[j]>a[j] 
+ * a pair (a[i], a[j]) forms an inversion when i<j and a[i]>a[j] 
  * when an array is sorted in increasing order, there are 0 inversions
  * When an array is sorted in decreasing order, there are n(n-1)/2 inversions
  * Suppose (x,y) is the pair. S, the possibilities are:
