@@ -13,11 +13,9 @@ public class PrintBoundaryElements {
 	}
 
 	private static void boundaryElements(int[][] arr) {
-		int col=0;
 		int row = arr.length;
-		for(int i=0;i<arr.length;i++) {
-			col = arr[i].length;
-		}
+		int col=arr[0].length;
+		
 		if(row==1) {
 			for(int i=0;i<arr[row].length;i++){
 				System.out.print(arr[0][i] + " ");

@@ -2,6 +2,7 @@ package com.ashmita.multidimensionalArray;
 /**
  * 
  * @author User
+ * Take four variables top, bottom, left, right
  * TC: O(rxc)
  *
  */
